@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #176d47;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 40px;
+    text-align:center;
+    padding-top: 5px;
+    color:rgb(216, 216, 216);
+    font-family: 'Optima';
+}
+h3{
+    color:rgb(216, 216, 216);
+    font-family:'Courier New', Courier, monospace;  
+}
+
+.accordion{
+    opacity: .9;  
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    gap: 10px;   
+}
+
+input{
+    outline: 0;
+    background-color: #f4f4f4;
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+label, .accordion-button{
+    font-size: 20px;
+    color:rgb(108, 178, 106);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.accordion-item{
+    background-color: #003d23;
+}
+
+@media screen and (max-width: 786px){
+    input{
+        outline: 0;
+        background-color: #fafafa;
+        width: 50%;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    label, .accordion-button{
+        font-size: 12px;
+        color:rgb(108, 178, 106);
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        height: 30vh;
+        gap: 10px;   
+    }
+    
+    
+}

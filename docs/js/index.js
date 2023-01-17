@@ -41,7 +41,7 @@ function checkPermitido(obj) {
       parseInt(obj.password) === permitido.password &&
       obj.accept === permitido.accept
     ) {
-      window.open('http://127.0.0.1:5500/docs/excercises.html#', '_self');
+      window.open('https://julianagil.github.io/bit06exercises/exercises.html', '_self');
     } else {
       alert(
         'Acceso denegado, usuario no permitido, revisa tus credenciales.',

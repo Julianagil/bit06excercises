@@ -28,7 +28,6 @@ function checkFormulario() {
     return true;
   else return false;
 }
-
 function checkPermitido(obj) {
   try {
     const permitido = {

@@ -524,7 +524,7 @@ function dobleCuatro() {
 }
 
 //16. Pedir un número verificar si es positivo o negativo, o es cero. 
-/* const $exer16Form = document.getElementById("exer16");
+const $exer16Form = document.getElementById("exer16");
 const alertPlaceholder16 = document.getElementById('liveAlertPlaceholder16');
 $exer16Form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -550,15 +550,16 @@ function identificador() {
     } else {
         alert16("El número ingresado es negativo");
     }
-} */
+} 
+
 //17.Pedir un número y verificar si par impar o cero
-/* const $exer17Form = document.getElementById("exer17");
+const $exer17Form = document.getElementById("exer17");
 const alertPlaceholder17 = document.getElementById('liveAlertPlaceholder17');
 $exer17Form.addEventListener('submit', (e) => {
     e.preventDefault();
     paresImpares();
-}); */
-/* const alert17 = (message, type) => {
+});
+const alert17 = (message, type) => {
     const wrapper = document.createElement('div');
     wrapper.innerHTML = [
         `<div class="alert alert-info alert-${type} alert-dismissible" role="alert">`,
@@ -578,4 +579,4 @@ function paresImpares() {
     } else {
         alert17("El número ingresado es impar");
     }
-} */
+}
